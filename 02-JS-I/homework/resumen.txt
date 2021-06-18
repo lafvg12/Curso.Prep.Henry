@@ -1,0 +1,44 @@
+Explicación con mis propias palabras para dar a conocer unos términos usados en programación.
+
+1. Variables: este término usado se puede asemejar como un contenedor que le podemos llamar como queramos y que en su interior va tener un valor, el cual se asigna inmediatamente o en su defecto se puede declarar posteriormente.
+
+ejemplo: Tenemos un recipiente llamado x, seguido metemos en ese recipiente un valor de 25, entonces esa variable x va tener un valor de 25.
+
+2. String: es un valor utlizado en los lenguajes de programación para representar un espacio en memoria que representa una palabra.
+
+ejemplo: var x = 'Andrés' , esto es un ejemplo que representa un contenedor con un String
+
+3. Funciones: las funciones en programación son pequeñas fracciones de código que en su interior contiene lógica de programación la cual esta destinada a ejecutar una acción con los argumentos que son valores que recibe y se ejecuta  al ser llamada posteriormente
+
+ejemplo: function saludo(a, b){
+    return a + b
+}
+
+saludo()
+
+4. Declaraciones IF: Son fragmentos de código con el objetivo de validar condiciones en una situación especifica, estas declaraciones tienen un orden lógico que va validar una condición y al no cumplirse ejecuta la siguiente condición.
+
+
+ejemplo:
+
+let number = 25
+
+if(number === 25){
+    console.log('Hola me ejecute primero')
+}else{
+    console.log('Me ejecute por que la condición de arriba no se cumplió')
+}
+
+5. Boolean: Estos valores son lo que validan si una situación es falsa o verdadera y según sea el resultado se ejecuta dicho codigo
+
+ejemplo: 
+
+var x = false;
+if (x) {
+  // este código no se ejecuta
+}
+
+var x = true;
+if (x) {
+  // este código  se ejecuta
+}
